@@ -4,7 +4,7 @@ class Sobre extends React.Component {
     this.instituicao = "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo";
     this.localizacao = "Rua Pedro Vicente, 625 - Canindé - São Paulo - SP - Brasil - Cep: 01109-010";
   }
-
+  
   render() {
     return (
     <main><p>O <strong>{this.instituicao}</strong> – é uma autarquia federal de ensino.</p>
